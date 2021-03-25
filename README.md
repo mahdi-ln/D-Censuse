@@ -3,6 +3,6 @@ https://dcensus.site
 
 
 Note
-Maximum of 50% of donation will be shared with contributers based on percentage of contribution
+Maximum of 80% of donation will be shared with contributers based on percentage of contribution
 
 
