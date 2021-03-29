@@ -1,11 +1,17 @@
 require('babel-register');
 require('babel-polyfill');
 const HDWalletProvider = require("truffle-hdwallet-provider");
-const { version } = require('chai');
+
 
 require('dotenv').config()  // Store environment-specific variable from '.env' to process.env
 console.log('aa - process.env.MNEMONIC : '+process.env.MNEMONIC);
-
+const config = {
+  oasis: {
+    mnemonic: secrets.mnemonics.oasis,
+    endpoint: 'https://web3.oasiscloud.io',
+    wsEndpoint: 'wss://web3.oasiscloud.io/ws'
+  }
+  }
 module.exports = {
   networks: {
     development: {
@@ -14,13 +20,23 @@ module.exports = {
       network_id: '*', // Match any network id
 
     },
+    
+
+    // Oasis Devnet
+    oasis: {
+      provider: function () {
+        return new HDWalletProvider(config.oasis.mnemonic, config.oasis.endpoint, 0, 10);
+      },
+      gas: 16000000,
+      network_id: "42261"
+    },
     // testnets
     // properties
     // network_id: identifier for network based on ethereum blockchain. Find out more at https://github.com/ethereumbook/ethereumbook/issues/110
     // gas: gas limit
     // gasPrice: gas price in gwei
     ropsten: {
-      provider: () => new HDWalletProvider("retreat before stove they joke cage dignity remain toilet bacon meadow still", "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY),
+      provider: () => new HDWalletProvider("", "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY),
       network_id: 3,
       gas: 3000000,
       gasPrice: 10000000000
