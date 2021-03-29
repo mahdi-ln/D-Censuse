@@ -6,6 +6,7 @@
   "homepage": ".",
   "dependencies": {
     "@metamask/detect-provider": "^1.2.0",
+    "@truffle/hdwallet-provider": "^1.2.5",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
@@ -17,6 +18,7 @@
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
     "dotenv": "^8.2.0",
+    "eth-block-tracker": "^4.4.3",
     "find-up": "^3.0.0",
     "ipfs-api": "^26.1.2",
     "node-rsa": "^1.1.1",
@@ -27,7 +29,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "2.1.3",
     "thorify": "^1.5.3",
-    "tronweb": "^3.1.0",
     "truffle": "^5.2.6",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.0.0-beta.55"
