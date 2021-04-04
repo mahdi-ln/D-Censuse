@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm install --save-dev truffle-hdwallet-provider@1.0.0-web3one.0
+npm install --save-dev oasis-compile
+npm install --save web3c
