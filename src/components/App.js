@@ -281,7 +281,7 @@ createProduct(name, race, _photo,_kidproofhash ,_role, country, alive,enc) {
               { this.state.loading
                 ? <div id="loader" className="text-center"><p className="text-center">Loading...</p></div>
                 : <div id="content">
-                  <p></p><span>You can get free ETH at </span><a href="https://faucet.ropsten.be/">faucet.ropsten.be</a>
+                  <p></p>
                 <h1>Add Person</h1>
                 <form onSubmit={(event) => {
                   event.preventDefault()
