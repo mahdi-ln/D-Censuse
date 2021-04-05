@@ -135,7 +135,7 @@ class Home extends Component {
           this.setState({ loading: false});
         
         } else {
-          window.alert('Marketplace contract not deployed to detected network. Switch to Ropsten testnet')
+          window.alert('Marketplace contract not deployed to detected network. Switch to Oasis Ethereum')
         }
 
       }

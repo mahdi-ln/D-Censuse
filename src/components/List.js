@@ -93,7 +93,7 @@ class List extends Component {
           this.setState({ loading: false});
         
         } else {
-          window.alert('Marketplace contract not deployed to detected network. Switch to Ropsten')
+          window.alert('Marketplace contract not deployed to detected network. Switch to Oasis Ethereum')
         }
 
       }
