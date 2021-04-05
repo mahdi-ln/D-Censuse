@@ -6373,58 +6373,7 @@
     "version": "0.5.17+commit.d19bba13.Emscripten.clang"
   },
   "networks": {
-    "3": {
-      "events": {
-        "0x982bb66d9aa60573bc0a2066122e1466ecbc4c179a5e7c1c5b589345008ce69a": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "wallet",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "_householdID",
-              "type": "uint256"
-            }
-          ],
-          "name": "ProductCreated",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0x0759ccDAa89D2472123dA97B021902a3eFA978CE",
-      "transactionHash": "0xafbdce520d63c65b3ac95e950bd07e84f2ea3d83feb7e041658f7ed5a2f32ccf"
-    },
-    "5777": {
-      "events": {
-        "0x982bb66d9aa60573bc0a2066122e1466ecbc4c179a5e7c1c5b589345008ce69a": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "wallet",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "_householdID",
-              "type": "uint256"
-            }
-          ],
-          "name": "ProductCreated",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0xAc68356A0792550002C525741fFBF0462aff7b55",
-      "transactionHash": "0xe029f644f126d3f5493af70fafa162ceb8d13ece8a5d4f6a3f1113019c97ea32"
-    },
+   
         "69": {
       "events": {
         "0x982bb66d9aa60573bc0a2066122e1466ecbc4c179a5e7c1c5b589345008ce69a": {
