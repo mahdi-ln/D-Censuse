@@ -723,7 +723,7 @@ onChange={this.captureproofofkids.bind(this.proofofkids)}
             <tr key={key}>
               <th scope="row">{ product.householdID.toString() }</th>
               <td>{product.name}</td>
-               <td>{product.rolee} </td>
+               <td>{product.role} </td>
                <td>{product.race}</td>  
               <td>{product.country}</td>
               <td>
