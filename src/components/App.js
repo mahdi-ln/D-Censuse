@@ -556,10 +556,12 @@ createProduct(name, race, _photo,_kidproofhash ,_role, country, alive,enc) {
                       type="text"
                       ref={(input) => { this.email = input }}
                       className="form-controle"
-                      placeholder="Your email address (email address will be encrypted)"
+                      placeholder="Your email address "
                       
                       />
+                      
                   </div>
+                  <p>email address will be encrypted</p>
                   <div className="form-group mr-sm-2">
                     <input
                       id="Name"
@@ -700,7 +702,7 @@ onChange={this.captureproofofkids.bind(this.proofofkids)}
                  <button type="submit" className="btn btn-primary">Add family member</button>
                 </form>
                 <button type="submit" onClick={this.addfamily}>+ other household</button>
-                <p>Donation needed for improvment</p>
+                <p>You can buy/sell OETH <a href="https://localbitcoins.com/accounts/profile/p2pb2botc/?ch=179pz">here</a></p>
                 <p>&nbsp;</p>
 
                 <h2>Currently added (Current household)</h2>
@@ -709,7 +711,7 @@ onChange={this.captureproofofkids.bind(this.proofofkids)}
                     <tr>
                       <th scope="col">hid</th>
                       <th scope="col">Name</th>
-                      <th scope="col">Rolee</th>
+                      <th scope="col">Role</th>
                       <th scope="col">Race</th>
                       <th scope="col">Country</th>
                       <th scope="col">Photo</th>
