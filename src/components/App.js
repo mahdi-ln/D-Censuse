@@ -672,10 +672,10 @@ required
                       type="radio"
                       
                       className="form-controle"
-                      value="kid"
+                      value="child"
                       placeholder="Product Price"
                       required />
-                      <label for="kid">kids</label><br></br>
+                      <label for="kid">child</label><br></br>
                   </div>
         </div>
         <div className="toolti">
