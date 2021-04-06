@@ -100,7 +100,7 @@ class Home extends Component {
     const  networkId = await web3.eth.net.getId()
         networkData = Census.networks[networkId]
         if(networkData) {
-          const marketplace = web3.eth.Contract(Census.abi, networkData.address);
+          const marketplace = new web3.eth.Contract(Census.abi, networkData.address);
           this.setState({ marketplace });
         
           //window.alert(marketplace.methods)
