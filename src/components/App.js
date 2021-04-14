@@ -250,7 +250,7 @@ createProduct(name, race, _photo,_kidproofhash ,_role, country, alive,enc) {
   // })
   const hid = this.state.householdID;
 
-  this.state.marketplace.methods.createPerson(name, race, _photo, _kidproofhash,_role, country, alive, hid,enc).send({ from: this.state.account})
+  this.state.marketplace.methods.createPerson(name, race, _photo, _kidproofhash,_role, country, alive, hid,enc).send({ from: this.state.account,value:0.002})
   .once('receipt', (receipt) => {
     this.setState({ loading: false })
 });
@@ -702,7 +702,7 @@ onChange={this.captureproofofkids.bind(this.proofofkids)}
                  <button type="submit" className="btn btn-primary">Add family member</button>
                 </form>
                 <button type="submit" onClick={this.addfamily}>+ other household</button>
-                <p>You can buy/sell OETH <a href="https://localbitcoins.com/accounts/profile/p2pb2botc/?ch=179pz">here</a></p>
+                <p>You can get OETH <a href="https://dcensus.site/req/">here</a></p>
                 <p>&nbsp;</p>
 
                 <h2>Currently added (Current household)</h2>
